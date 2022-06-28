@@ -1,0 +1,30 @@
+body {
+  font-family: "Poppins", sans-serif !important;
+  background: #f9fbfd !important;
+}
+
+.container button {
+  position: absolute;
+  right: 5%;
+  top: 3%;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  background: #1363f1;
+  color: white;
+  cursor: pointer;
+}
+
+.container button img {
+  padding: 0 0 2px 0;
+}
+
+.newContainer ul {
+  margin: 30px 0 0 0;
+}
+
+.newContainer {
+  position: absolute;
+  left: 20%;
+  top: 12%;
+}

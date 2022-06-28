@@ -1,0 +1,126 @@
+*{
+    font-family: 'Poppins', sans-serif;
+} 
+
+body{
+    background-color: whitesmoke;
+    padding: 150px 0 0 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.head {
+    font-size: 20px;
+    font-style: inherit;
+}
+
+
+input.close{
+    float: right;
+    background: white;
+    color: black;
+    background-color: white;
+    
+}
+.userform {
+    max-width: 400px;
+    max-height: 900px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px 25px 44px 25px;
+    background: white;
+}
+
+hr{
+    margin-left: -25px;
+}
+
+input[type=text], select{
+    width: 100%;
+    padding: 08px 12px;
+    margin: 0px 0;
+    display: inline-block;
+    background-color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input.btnSubmit{
+    float: right;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.btnSubmit {
+    border: 1px solid #283E46;
+    background: #283E46;
+    color: white;
+    padding: 6px 15px;
+    transition: color 1.5s ease-out;
+    cursor: pointer;
+}
+
+.btnSubmit:hover {
+    background: #87ceeb;
+    border: 1px solid #283E46;
+    color: #87ceeb;
+    transition: color 1.5s ease-out;
+    cursor: pointer;
+}
+
+input.btn{
+    float: right;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.btn {
+    border: 1px solid #283E46;
+    background: white;
+    
+    color: white;
+    padding: 6px 15px;
+    margin-right:10px;
+    transition: color 1.5s ease-out;
+    color: black;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: white;
+    border: 1px solid #283E46;
+    color: white;
+    transition: color 1.5s ease-out;
+    color: black;
+    cursor: pointer;
+}
+
+
+/* .btnSubmit {
+    border: 1px solid ;
+    background: #332846;
+    color: white;
+    padding: 2px 6px;
+    transition: color 1.5s ease-out;
+}
+
+.btnSubmit:hover {
+    background: white;
+    border: 1px solid #283E46;
+    color: #283E46;
+    transition: color 1.5s ease-out;
+} */
+
+ /* input[type=submit] {
+    width: 100%;
+    background-color: darkturquoise;
+    color: white;
+    padding: 10px 0px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background:mediumvioletred;
+}  */
+
