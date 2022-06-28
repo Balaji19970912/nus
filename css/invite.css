@@ -1,0 +1,458 @@
+body{
+    background-color: whitesmoke;
+    padding: 150px 0 0 0;
+
+}
+.head {
+    font-size: 20px;
+    font-style: inherit;
+}
+
+.Adduser {
+    position: absolute;
+left: 34%;
+top: 27%;
+}
+.userdata {
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    top: 35%;
+    /* background: #FFFFFF; */
+}
+
+
+
+.userNames{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    top: 42%;
+    background: #FFFFFF;
+    border: 1px solid #D2DDEC;
+
+}
+.username {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding: 12px; */
+    gap: 16px;
+    padding: 5px;
+    width: 389px;
+    height: 40px;
+
+    /* Neutrals/White */
+
+    background: #FFFFFF;
+    border: 1px solid #D2DDEC;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    color: #000000;
+}
+.username:placeholder-shown {
+    color: #95AAC9;
+}
+
+.emaildata {
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    top: 53%;
+}
+
+.emailiddata {
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    top: 59%;
+    background: #FFFFFF;
+    border: 1px solid #D2DDEC;
+}
+
+.role {
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    top: 69%;
+}
+
+.selecting {
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    top: 75%;
+    background: #FFFFFF;
+    border: 1px solid #D2DDEC;
+}
+
+.roleid {
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    top: 85%;
+}
+
+.roleparent {
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    top: 93%;
+    background: #FFFFFF;
+    border: 1px solid #D2DDEC;
+    color: #95AAC9;
+}
+
+.rolebusiness {
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    top: 105%;
+    
+}
+
+
+.bussinessrole {
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    top: 100%;
+    background: #FFFFFF;
+    border: 1px solid #D2DDEC;
+    color: #95AAC9;
+}
+
+.ms-options-wrap > button:focus, .ms-options-wrap > button {
+    position: relative;
+    width: 410px;
+    text-align: left;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    padding: 10px 20px 5px 5px;
+    margin-top: 430px;
+    font-size: 13px;
+    color: #6E84A3;
+    outline: none;
+    white-space: nowrap;
+    position: absolute;
+    left: 10%;
+  }
+  .ms-options-wrap, .ms-options-wrap * {
+    box-sizing: border-box;
+    
+  }
+
+  .ms-options-wrap > .ms-options {
+    position: absolute;
+    /* left: 29px; */
+    top: 40%;
+    width: 390px;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    background: white;
+    z-index: 2000;
+    border: 1px solid #aaa;
+    /* text-align: left; */
+    left: 18%;
+    }
+
+.ms-options {
+    position: absolute;
+    left: 10%;
+  }
+
+  .ms-options-wrap > .ms-options {
+    position: absolute;
+    left: 29px;
+    top: 40%;
+    width: 390px;
+    margin-top: 1px;
+    /* margin-bottom: 20px; */
+    background: white;
+    /* z-index: 2000; */
+    border: 1px solid #aaa;
+    text-align: left;
+  }
+
+  .ms-options-wrap > .ms-options > ul label {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 8px 4px;
+    padding-left: 4px;
+    margin: 1px 0;
+    color: #6E84A3;
+  }
+
+  ul {
+    list-style-type: none;
+}
+
+.ms-options-wrap > .ms-options > ul input[type="checkbox"] {
+    margin-right: 4px;
+}
+
+.close-btn {
+    position: absolute;
+    float: right;
+    right: 33%;
+    top: 166px;
+    width: 30px;
+    height: 30px;
+    /* background: #222; */
+    color: #000000;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.password{
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    top: 122%;
+}
+
+.passwordvalue{
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    top: 127%;
+    background: #FFFFFF;
+    border: 1px solid #D2DDEC;
+    padding: 8px 10px;
+}
+
+
+.cancelUser {
+    background: white;
+    border: 1px solid #D2DDEC;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 7px 0 0;
+    position: absolute;
+    width: 8%;
+    position: absolute;
+    right: 45%;
+    top:140%;
+}
+
+.inviteUser{
+    background: skyblue;
+    border: 1px solid #D2DDEC;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 7px 0 0;
+    position: absolute;
+    width: 10%;
+    right: 34%;
+    top:140%;
+}
+
+input.close{
+    float: right;
+    background: white;
+    color: black;
+    background-color: white;
+    
+}
+.userform {
+    width: 500px;
+    height: 800px;
+    margin: auto;
+    border-radius: 10px;
+    /* padding: 20px 25px 44px 25px; */
+    background: white;
+}
+
+hr{
+    margin-left: 0;
+    margin-top: 32px;
+}
+
+input[type=text], select{
+    /* width: 100%; */
+    padding: 08px 12px;
+    margin: 0px 0;
+    display: inline-block;
+    background-color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding: 12px; */
+    gap: 16px;
+    padding: 5px;
+    width: 389px;
+    height: 40px;
+
+    /* Neutrals/White */
+
+    background: #FFFFFF;
+    border: 1px solid #D2DDEC;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    color: #000000;
+}
+.email:placeholder-shown {
+    color: #95AAC9;
+}
+
+
+
+.username {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding: 12px; */
+    gap: 16px;
+    padding: 5px;
+    width: 389px;
+    height: 40px;
+
+    /* Neutrals/White */
+
+    background: #FFFFFF;
+    border: 1px solid #D2DDEC;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    color: #000000;
+}
+.username:placeholder-shown {
+    color: #95AAC9;
+}
+
+/* 
+
+input.btnSubmit{
+    float: right;
+    border-radius: 7px;
+}
+.btnSubmit {
+    border: 1px solid #283E46;
+    background: #283E46;
+    color: white;
+    padding: 6px 15px;
+    transition: color 1.5s ease-out;
+}
+
+.btnSubmit:hover {
+    background: #87ceeb;
+    border: 1px solid #283E46;
+    color: #87ceeb;
+    transition: color 1.5s ease-out;
+}
+
+input.btn{
+    float: right;
+    border-radius: 7px;
+}
+.btn {
+    border: 1px solid #283E46;
+    background: white;
+    
+    color: white;
+    padding: 6px 15px;
+    margin-right:10px;
+    transition: color 1.5s ease-out;
+    color: black;
+}
+
+.btn:hover {
+    background: white;
+    border: 1px solid #283E46;
+    color: white;
+    transition: color 1.5s ease-out;
+    color: black;
+}
+
+input.resendinvite{
+    float: left;
+    border-radius: 7px;
+}
+.resendinvite {
+    border: 1px solid #283E46;
+    background: white;
+    color: white;
+    padding: 6px 15px;
+    margin-right:10px;
+    transition: color 1.5s ease-out;
+    color: black;
+}
+
+.resendinvite:hover {
+    background: white;
+    border: 1px solid #283E46;
+    color: white;
+    transition: color 1.5s ease-out;
+    color: black;
+} */
+
+
+.buttonSection {
+    position: fixed;
+    right: 35%;
+    bottom: 18%;
+}
+
+
+.resendinviteUser {
+    background: white;
+    border: 1px solid #D2DDEC;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 90px 0 0;
+}
+
+
+
+
+/* .btnSubmit {
+    border: 1px solid ;
+    background: #332846;
+    color: white;
+    padding: 2px 6px;
+    transition: color 1.5s ease-out;
+}
+
+.btnSubmit:hover {
+    background: white;
+    border: 1px solid #283E46;
+    color: #283E46;
+    transition: color 1.5s ease-out;
+} */
+
+ /* input[type=submit] {
+    width: 100%;
+    background-color: darkturquoise;
+    color: white;
+    padding: 10px 0px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background:mediumvioletred;
+}  */
+

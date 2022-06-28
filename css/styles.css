@@ -1,0 +1,814 @@
+body{
+    background-color: whitesmoke;
+    padding: 150px 0 0 0;
+
+}
+.head {
+    font-size: 20px;
+    font-style: inherit;
+}
+
+
+.close-btn {
+    position: absolute;
+    float: right;
+    right: 35%;
+    top: 175px;
+    width: 30px;
+    height: 30px;
+    /* background: #222; */
+    color: #000000;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+input.close{
+    float: right;
+    background: white;
+    color: black;
+    background-color: white;
+    
+}
+.userform {
+    max-width: 400px;
+    max-height: 900px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px 25px 44px 25px;
+    background: white;
+}
+
+hr{
+    margin-left: -25px;
+}
+
+input[type=text], select{
+    width: 100%;
+    padding: 08px 12px;
+    margin: 0px 0;
+    display: inline-block;
+    background-color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding: 12px; */
+    gap: 16px;
+    padding: 5px;
+    width: 389px;
+    height: 40px;
+
+    /* Neutrals/White */
+
+    background: #FFFFFF;
+    border: 1px solid #D2DDEC;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    color: #000000;
+}
+.email:placeholder-shown {
+    color: #95AAC9;
+}
+
+
+
+.username {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding: 12px; */
+    gap: 16px;
+    padding: 5px;
+    width: 389px;
+    height: 40px;
+
+    /* Neutrals/White */
+
+    background: #FFFFFF;
+    border: 1px solid #D2DDEC;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    color: #000000;
+}
+.username:placeholder-shown {
+    color: #95AAC9;
+}
+
+/* 
+
+input.btnSubmit{
+    float: right;
+    border-radius: 7px;
+}
+.btnSubmit {
+    border: 1px solid #283E46;
+    background: #283E46;
+    color: white;
+    padding: 6px 15px;
+    transition: color 1.5s ease-out;
+}
+
+.btnSubmit:hover {
+    background: #87ceeb;
+    border: 1px solid #283E46;
+    color: #87ceeb;
+    transition: color 1.5s ease-out;
+}
+
+input.btn{
+    float: right;
+    border-radius: 7px;
+}
+.btn {
+    border: 1px solid #283E46;
+    background: white;
+    
+    color: white;
+    padding: 6px 15px;
+    margin-right:10px;
+    transition: color 1.5s ease-out;
+    color: black;
+}
+
+.btn:hover {
+    background: white;
+    border: 1px solid #283E46;
+    color: white;
+    transition: color 1.5s ease-out;
+    color: black;
+}
+
+input.resendinvite{
+    float: left;
+    border-radius: 7px;
+}
+.resendinvite {
+    border: 1px solid #283E46;
+    background: white;
+    color: white;
+    padding: 6px 15px;
+    margin-right:10px;
+    transition: color 1.5s ease-out;
+    color: black;
+}
+
+.resendinvite:hover {
+    background: white;
+    border: 1px solid #283E46;
+    color: white;
+    transition: color 1.5s ease-out;
+    color: black;
+} */
+
+
+.buttonSection {
+    position: fixed;
+    right: 35%;
+    bottom: 18%;
+}
+
+
+.resendinviteUser {
+    background: white;
+    border: 1px solid #D2DDEC;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 90px 0 0;
+}
+
+
+.cancelUser {
+    background: white;
+    border: 1px solid #D2DDEC;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 7px 0 0;
+}
+.savechanges {
+    background: #1363F1;
+    color: #fff;
+    padding: 11px;
+    border: none;
+    cursor: pointer;
+    margin: 0 0 0 0;
+}
+.savechanges:disabled {
+    background-color: #89b1f8;
+    color: #ffffff;
+    cursor: no-drop;
+}
+
+
+
+
+
+
+
+
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 165.1%;
+    letter-spacing: -0.01em;
+    /* color: #6E84A3; */
+    background-color: #fff;
+    
+}
+
+
+
+.clientPage {
+    position: absolute;
+    right: 2%;
+}
+
+.newClient {
+    border: 1px solid #D2DDEC;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background: #1363F1;
+    color: white;
+    cursor: pointer;
+    margin: 0 5px 0 -189px;
+    position: fixed;
+}
+
+
+.line {
+    width: 450px;
+    background-color: #D2DDEC;
+    height: 2px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 13%;
+}
+
+.role {
+    color: #12263F;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 152.4%;
+    /* identical to box height, or 23px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    /* padding: 30px 0 20px 20px; */
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+.roleid {
+    position: absolute;
+    top: 52%;
+    left: 5%;
+}
+
+.roleparent {
+    position: absolute;
+    top: 56%;
+
+}
+
+.rolebusiness {
+    position: absolute;
+    top: 64%;
+    left: 5%;
+}
+
+.bussinessrole {
+    position: absolute;
+    top: 95%;
+}
+.userdata{ 
+    position: absolute;
+    top: 16%;
+    left: 5%;
+}
+
+select {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    gap: 16px;
+    width: 390px;
+    height: 47px;
+    /* Neutrals/White */
+    background: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    border: 1px solid #D2DDEC;
+    position: absolute;
+    top: 44%;
+    left: 5%;
+}
+
+
+.emaildata {
+    position: absolute;
+    top: 28%;
+    left: 5%;
+}
+
+li {
+    position: relative;
+    right: 10%;
+      }
+
+.ms-options{
+    min-height: 10px;
+    max-height: 30px;
+}
+
+.emailiddata {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding: 12px; */
+    gap: 16px;
+    padding: 5px;
+    width: 389px;
+    height: 40px;
+
+    /* Neutrals/White */
+
+    background: #FFFFFF;
+    border: 1px solid #D2DDEC;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    color: #000000;
+    position: absolute;
+    top: 32%;
+    left: 5%;
+}
+.emailiddata:placeholder-shown {
+    color: #95AAC9;
+}
+
+.userNames{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    padding: 5px;
+    width: 389px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #D2DDEC;
+   position: absolute;
+   top: 20%;
+   left: 5%;
+}
+
+.userNames:placeholder-shown {
+    color: #95AAC9;
+}
+
+.linebottom {
+    width: 450px;
+    background-color: #D2DDEC;
+    height: 2px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    /* top: 20%; */
+    bottom: 60px;
+}
+
+.clientbuttonSection {
+    position: absolute;
+    right: 30%;
+    bottom: 2%;
+}
+.cancelUser {
+    background: white;
+    border: 1px solid #D2DDEC;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 5px 0 0;
+}
+.inviteUser {
+    background: #1363F1;
+    color: #fff;
+    padding: 11px;
+    border: none;
+    cursor: pointer;
+}
+.inviteUser:disabled {
+    background-color: #89b1f8;
+    color: #ffffff;
+    cursor: no-drop;
+}
+
+.sectionHeader {
+    /* flex-flow: row nowrap; */
+
+    width: 600px;
+    height: 900px;
+    position: absolute;
+    margin: 40px 0 40px 500px;
+    border-color: #1363F1;
+}
+
+
+
+.sectionHeader a{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    text-decoration-line:none ;
+    right: 6%;
+    bottom: 85%;
+    border-radius: 6px;
+    background-color: #1363F1;
+    color:  white;
+    padding: 6px 10px;
+    position: fixed;
+}
+
+span {
+    width: 101px;
+    height: 20px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #12263F;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: absolute;
+    /* left: 4%; */
+    top: 7%;
+    left: 3%;
+}
+
+.popup .close-btn {
+    position: absolute;
+    left: 66%;
+    top:7%;
+    width: 30px;
+    height: 30px;
+    /* background: #222; */
+    color: #000000;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.popup.active .overlay {
+    display: block;
+}
+
+.popup.active .content {
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.close-btn {
+    position: absolute;
+    left: 60%;
+    top: 5%;
+}
+
+.lines {
+    width: 450px;
+    background-color: #D2DDEC;
+    height: 2px;
+    position: absolute;
+    top: 10%;
+    /* left: 31%; */
+  }
+
+
+.postform{
+    display: flex;
+    flex-direction: column;
+}
+
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+  }
+
+  .ms-options-wrap > button:focus, .ms-options-wrap > button {
+    position: relative;
+    width: 390px;
+    text-align: left;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    padding: 10px 20px 5px 5px;
+    margin-top: 610px;
+    font-size: 13px;
+    color: #6E84A3;
+    outline: none;
+    white-space: nowrap;
+    position: absolute;
+    left: 5%;
+  }
+  .ms-options-wrap, .ms-options-wrap * {
+    box-sizing: border-box;
+  }
+
+  .ms-options-wrap > .ms-options {
+    position: absolute;
+    left: 29px;
+    top: 40%;
+    width: 390px;
+    margin-top: 1px;
+    /* margin-bottom: 20px; */
+    background: white;
+    /* z-index: 2000; */
+    border: 1px solid #aaa;
+    text-align: left;
+  }
+
+  .ms-options-wrap > .ms-options > ul label {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 8px 4px;
+    padding-left: 4px;
+    margin: 1px 0;
+    color: #6E84A3;
+  }
+
+  ul {
+    list-style-type: none;
+}
+
+.ms-options-wrap > .ms-options > ul input[type="checkbox"] {
+    margin-right: 4px;
+}
+
+.password {
+    position: absolute;
+    top: 75%;
+    left: 5%;
+  }
+
+
+.passwordvalue {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    padding: 5px;
+    width: 389px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #D2DDEC;
+    position: absolute;
+    top: 79%;
+    left: 5%;
+}
+
+body{
+    background-color: whitesmoke;
+    padding: 150px 0 0 0;
+
+}
+.head {
+    font-size: 20px;
+    font-style: inherit;
+}
+
+
+.close-btn {
+    position: absolute;
+    float: right;
+    right: 35%;
+    top: 175px;
+    width: 30px;
+    height: 30px;
+    /* background: #222; */
+    color: #000000;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+input.close{
+    float: right;
+    background: white;
+    color: black;
+    background-color: white;
+    
+}
+.userform {
+    max-width: 400px;
+    max-height: 900px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px 25px 44px 25px;
+    background: white;
+}
+
+hr{
+    margin-left: -25px;
+}
+
+input[type=text], select{
+    width: 100%;
+    padding: 08px 12px;
+    margin: 0px 0;
+    display: inline-block;
+    background-color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding: 12px; */
+    gap: 16px;
+    padding: 5px;
+    width: 389px;
+    height: 40px;
+
+    /* Neutrals/White */
+
+    background: #FFFFFF;
+    border: 1px solid #D2DDEC;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    color: #000000;
+}
+.email:placeholder-shown {
+    color: #95AAC9;
+}
+
+
+
+.username {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding: 12px; */
+    gap: 16px;
+    padding: 5px;
+    width: 389px;
+    height: 40px;
+
+    /* Neutrals/White */
+
+    background: #FFFFFF;
+    border: 1px solid #D2DDEC;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    color: #000000;
+}
+.username:placeholder-shown {
+    color: #95AAC9;
+}
+
+/* 
+
+input.btnSubmit{
+    float: right;
+    border-radius: 7px;
+}
+.btnSubmit {
+    border: 1px solid #283E46;
+    background: #283E46;
+    color: white;
+    padding: 6px 15px;
+    transition: color 1.5s ease-out;
+}
+
+.btnSubmit:hover {
+    background: #87ceeb;
+    border: 1px solid #283E46;
+    color: #87ceeb;
+    transition: color 1.5s ease-out;
+}
+
+input.btn{
+    float: right;
+    border-radius: 7px;
+}
+.btn {
+    border: 1px solid #283E46;
+    background: white;
+    
+    color: white;
+    padding: 6px 15px;
+    margin-right:10px;
+    transition: color 1.5s ease-out;
+    color: black;
+}
+
+.btn:hover {
+    background: white;
+    border: 1px solid #283E46;
+    color: white;
+    transition: color 1.5s ease-out;
+    color: black;
+}
+
+input.resendinvite{
+    float: left;
+    border-radius: 7px;
+}
+.resendinvite {
+    border: 1px solid #283E46;
+    background: white;
+    color: white;
+    padding: 6px 15px;
+    margin-right:10px;
+    transition: color 1.5s ease-out;
+    color: black;
+}
+
+.resendinvite:hover {
+    background: white;
+    border: 1px solid #283E46;
+    color: white;
+    transition: color 1.5s ease-out;
+    color: black;
+} */
+
+
+.buttonSection {
+    position: fixed;
+    right: 35%;
+    bottom: 18%;
+}
+
+
+.resendinviteUser {
+    background: white;
+    border: 1px solid #D2DDEC;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 90px 0 0;
+}
+
+
+.cancelUser {
+    background: white;
+    border: 1px solid #D2DDEC;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 7px 0 0;
+}
+.savechanges {
+    background: #1363F1;
+    color: #fff;
+    padding: 11px;
+    border: none;
+    cursor: pointer;
+    margin: 0 0 0 0;
+}
+.savechanges:disabled {
+    background-color: #89b1f8;
+    color: #ffffff;
+    cursor: no-drop;
+}
