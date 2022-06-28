@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="//cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css"
+    />
+  </head>
+  <body>
+    <div class="tab-content">
+      <div id="home" class="tab-pane fade in active">
+        <table class="myTable">
+          <tbody>
+            <thead>
+              <th>USERNAME</th>
+              <th>EMAIL</th>
+              <th>ACCOUNT STATUS</th>
+            </thead>
+            <tr>
+              <td>Monkey D Luffy</td>
+              <td>luffy@onepiece.com</td>
+              <td>invited</td>
+            </tr>
+            <tr>
+              <td>Roronoa Zoro</td>
+              <td>zoro@onepiece.com</td>
+              <td>invited</td>
+            </tr>
+            <tr>
+              <td>Nami</td>
+              <td>nami@onepiece.com</td>
+              <td>confirmed</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="//cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".myTable").DataTable();
+    });
+  </script>
+</html>
